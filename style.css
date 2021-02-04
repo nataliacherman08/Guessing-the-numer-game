@@ -1,1 +1,52 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: 'Yusei Magic';
+  font-size: normal;
+  font-weight: normal;
+  src: url("font/YuseiMagic-Regular.ttf") format("truetype");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("https://images.wallpaperscraft.com/image/lawn_forest_mountains_144578_1280x720.jpg");
+  background-size: cover;
+  background-repeat: fixed;
+  font-family: 'Yusei Magic';
+}
+
+#container {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#677892), color-stop(#828aa9), color-stop(#9f9dbe), color-stop(#beafd2), to(#dec2e5));
+  background-image: linear-gradient(to top, #677892, #828aa9, #9f9dbe, #beafd2, #dec2e5);
+  width: 40%;
+  padding: 30px;
+  padding-bottom: 80px;
+  margin: auto;
+  margin-top: 250px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  -webkit-box-shadow: 20px 20px 40px #562b5f;
+          box-shadow: 20px 20px 40px #562b5f;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid #fff;
+  font-family: 'Yusei Magic';
+  background: -webkit-gradient(linear, left top, right top, from(#2e1a41), color-stop(#4e3560), color-stop(#715181), color-stop(#956fa3), to(#bb8fc6));
+  background: linear-gradient(to right, #2e1a41, #4e3560, #715181, #956fa3, #bb8fc6);
+  color: #fff;
+}
+
+input {
+  border-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */
