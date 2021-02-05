@@ -41,3 +41,28 @@ input
     border-radius: 20px ;
     border: 1px solid #fff;
 }
+
+//TYPING EFFECT
+.typing
+{
+    margin-left: 10px;
+}
+
+.typing::after
+{
+    content : '';
+    position: absolute;
+    width: 1px;
+    height: 5%;
+    border-right: 1px solid #000;
+    animation: blink 0.7s infinite ease;
+}
+
+@keyframes blink{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
