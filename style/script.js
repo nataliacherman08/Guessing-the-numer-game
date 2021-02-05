@@ -1,3 +1,20 @@
+//Type Writer Effect
+let speed = 100;
+let i = 0;
+
+let h = document.getElementById('typeWriter');
+let text = 'Guess a number between 1 and 100';
+
+function typeWriterEffect() {
+    if (i < text.length) {
+        h.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriterEffect, speed);
+    }
+}
+
+typeWriterEffect();
+
 //Number guess game :
 let btn = document.getElementById('btn');
 let output = document.getElementById('output-text');
